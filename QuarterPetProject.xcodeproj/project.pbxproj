@@ -3,27 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23947BC0EDFC58DD5AE9DEAA /* Pods_QuarterPetProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DE9AF1002F96B59CD5EC4EF /* Pods_QuarterPetProject.framework */; };
 		CE3664BC26EE153B00D638E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3664BB26EE153B00D638E8 /* AppDelegate.swift */; };
 		CE3664BE26EE153B00D638E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3664BD26EE153B00D638E8 /* SceneDelegate.swift */; };
 		CE3664C026EE153B00D638E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3664BF26EE153B00D638E8 /* ViewController.swift */; };
-		CE3664C326EE153B00D638E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3664C126EE153B00D638E8 /* Main.storyboard */; };
 		CE3664C526EE153D00D638E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3664C426EE153D00D638E8 /* Assets.xcassets */; };
 		CE3664C826EE153D00D638E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3664C626EE153D00D638E8 /* LaunchScreen.storyboard */; };
+		CE3664D126EE1A4500D638E8 /* ProjectModelComposer.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = CE3664D026EE1A4500D638E8 /* ProjectModelComposer.rcproject */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		63BA4AC2AF8F990F1BC7827C /* Pods-QuarterPetProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuarterPetProject.debug.xcconfig"; path = "Target Support Files/Pods-QuarterPetProject/Pods-QuarterPetProject.debug.xcconfig"; sourceTree = "<group>"; };
+		6DE9AF1002F96B59CD5EC4EF /* Pods_QuarterPetProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuarterPetProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		799FCC8C396081C517B85447 /* Pods-QuarterPetProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuarterPetProject.release.xcconfig"; path = "Target Support Files/Pods-QuarterPetProject/Pods-QuarterPetProject.release.xcconfig"; sourceTree = "<group>"; };
 		CE3664B826EE153B00D638E8 /* QuarterPetProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuarterPetProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE3664BB26EE153B00D638E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE3664BD26EE153B00D638E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CE3664BF26EE153B00D638E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CE3664C226EE153B00D638E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE3664C426EE153D00D638E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE3664C726EE153D00D638E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE3664C926EE153D00D638E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE3664D026EE1A4500D638E8 /* ProjectModelComposer.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = ProjectModelComposer.rcproject; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23947BC0EDFC58DD5AE9DEAA /* Pods_QuarterPetProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		595595DE4A5885B39FB9141F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6DE9AF1002F96B59CD5EC4EF /* Pods_QuarterPetProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CE3664AF26EE153B00D638E8 = {
 			isa = PBXGroup;
 			children = (
 				CE3664BA26EE153B00D638E8 /* QuarterPetProject */,
 				CE3664B926EE153B00D638E8 /* Products */,
+				EA67F9BB1405C851162671AE /* Pods */,
+				595595DE4A5885B39FB9141F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +74,21 @@
 				CE3664BB26EE153B00D638E8 /* AppDelegate.swift */,
 				CE3664BD26EE153B00D638E8 /* SceneDelegate.swift */,
 				CE3664BF26EE153B00D638E8 /* ViewController.swift */,
-				CE3664C126EE153B00D638E8 /* Main.storyboard */,
 				CE3664C426EE153D00D638E8 /* Assets.xcassets */,
 				CE3664C626EE153D00D638E8 /* LaunchScreen.storyboard */,
 				CE3664C926EE153D00D638E8 /* Info.plist */,
+				CE3664D026EE1A4500D638E8 /* ProjectModelComposer.rcproject */,
 			);
 			path = QuarterPetProject;
+			sourceTree = "<group>";
+		};
+		EA67F9BB1405C851162671AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				63BA4AC2AF8F990F1BC7827C /* Pods-QuarterPetProject.debug.xcconfig */,
+				799FCC8C396081C517B85447 /* Pods-QuarterPetProject.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +98,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE3664CC26EE153D00D638E8 /* Build configuration list for PBXNativeTarget "QuarterPetProject" */;
 			buildPhases = (
+				6C46B2524BBD861B32F58D97 /* [CP] Check Pods Manifest.lock */,
 				CE3664B426EE153B00D638E8 /* Sources */,
 				CE3664B526EE153B00D638E8 /* Frameworks */,
 				CE3664B626EE153B00D638E8 /* Resources */,
+				1C1642EEE411E9E5EC89DE91 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,17 +152,59 @@
 			files = (
 				CE3664C826EE153D00D638E8 /* LaunchScreen.storyboard in Resources */,
 				CE3664C526EE153D00D638E8 /* Assets.xcassets in Resources */,
-				CE3664C326EE153B00D638E8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C1642EEE411E9E5EC89DE91 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuarterPetProject/Pods-QuarterPetProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuarterPetProject/Pods-QuarterPetProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QuarterPetProject/Pods-QuarterPetProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C46B2524BBD861B32F58D97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuarterPetProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CE3664B426EE153B00D638E8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE3664D126EE1A4500D638E8 /* ProjectModelComposer.rcproject in Sources */,
 				CE3664C026EE153B00D638E8 /* ViewController.swift in Sources */,
 				CE3664BC26EE153B00D638E8 /* AppDelegate.swift in Sources */,
 				CE3664BE26EE153B00D638E8 /* SceneDelegate.swift in Sources */,
@@ -146,14 +214,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CE3664C126EE153B00D638E8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CE3664C226EE153B00D638E8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CE3664C626EE153D00D638E8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,6 +343,7 @@
 		};
 		CE3664CD26EE153D00D638E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63BA4AC2AF8F990F1BC7827C /* Pods-QuarterPetProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +363,7 @@
 		};
 		CE3664CE26EE153D00D638E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 799FCC8C396081C517B85447 /* Pods-QuarterPetProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
