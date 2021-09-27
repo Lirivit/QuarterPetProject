@@ -10,10 +10,20 @@
 		23947BC0EDFC58DD5AE9DEAA /* Pods_QuarterPetProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DE9AF1002F96B59CD5EC4EF /* Pods_QuarterPetProject.framework */; };
 		CE3664BC26EE153B00D638E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3664BB26EE153B00D638E8 /* AppDelegate.swift */; };
 		CE3664BE26EE153B00D638E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3664BD26EE153B00D638E8 /* SceneDelegate.swift */; };
-		CE3664C026EE153B00D638E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3664BF26EE153B00D638E8 /* ViewController.swift */; };
 		CE3664C526EE153D00D638E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3664C426EE153D00D638E8 /* Assets.xcassets */; };
 		CE3664C826EE153D00D638E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3664C626EE153D00D638E8 /* LaunchScreen.storyboard */; };
 		CE3664D126EE1A4500D638E8 /* ProjectModelComposer.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = CE3664D026EE1A4500D638E8 /* ProjectModelComposer.rcproject */; };
+		CE3664FB26FF856300D638E8 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = CE3664FA26FF856300D638E8 /* Resnet50.mlmodel */; };
+		CE3665002701B5CD00D638E8 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3664FF2701B5CD00D638E8 /* WelcomeView.swift */; };
+		CE3665022701B61700D638E8 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3665012701B61700D638E8 /* WelcomeViewController.swift */; };
+		CE3665042701BE8D00D638E8 /* PickOptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3665032701BE8D00D638E8 /* PickOptionViewController.swift */; };
+		CE3665062701BEDE00D638E8 /* PickOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3665052701BEDE00D638E8 /* PickOptionView.swift */; };
+		CE3665082701C7C200D638E8 /* MLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3665072701C7C200D638E8 /* MLView.swift */; };
+		CE36650A2701C8CC00D638E8 /* MLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3665092701C8CC00D638E8 /* MLViewController.swift */; };
+		CE36650C2701EF6B00D638E8 /* ARKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE36650B2701EF6B00D638E8 /* ARKitView.swift */; };
+		CE61DD842701F72200A39A01 /* ARKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE61DD832701F72200A39A01 /* ARKitViewController.swift */; };
+		CE61DD862702028100A39A01 /* ChooseARModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE61DD852702028100A39A01 /* ChooseARModelView.swift */; };
+		CE61DD882702097800A39A01 /* ChooseARModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE61DD872702097800A39A01 /* ChooseARModelViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,11 +33,21 @@
 		CE3664B826EE153B00D638E8 /* QuarterPetProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuarterPetProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE3664BB26EE153B00D638E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE3664BD26EE153B00D638E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE3664BF26EE153B00D638E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CE3664C426EE153D00D638E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE3664C726EE153D00D638E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE3664C926EE153D00D638E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE3664D026EE1A4500D638E8 /* ProjectModelComposer.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = ProjectModelComposer.rcproject; sourceTree = "<group>"; };
+		CE3664FA26FF856300D638E8 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
+		CE3664FF2701B5CD00D638E8 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		CE3665012701B61700D638E8 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		CE3665032701BE8D00D638E8 /* PickOptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickOptionViewController.swift; sourceTree = "<group>"; };
+		CE3665052701BEDE00D638E8 /* PickOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickOptionView.swift; sourceTree = "<group>"; };
+		CE3665072701C7C200D638E8 /* MLView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLView.swift; sourceTree = "<group>"; };
+		CE3665092701C8CC00D638E8 /* MLViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLViewController.swift; sourceTree = "<group>"; };
+		CE36650B2701EF6B00D638E8 /* ARKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKitView.swift; sourceTree = "<group>"; };
+		CE61DD832701F72200A39A01 /* ARKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKitViewController.swift; sourceTree = "<group>"; };
+		CE61DD852702028100A39A01 /* ChooseARModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseARModelView.swift; sourceTree = "<group>"; };
+		CE61DD872702097800A39A01 /* ChooseARModelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseARModelViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,15 +91,57 @@
 		CE3664BA26EE153B00D638E8 /* QuarterPetProject */ = {
 			isa = PBXGroup;
 			children = (
-				CE3664BB26EE153B00D638E8 /* AppDelegate.swift */,
-				CE3664BD26EE153B00D638E8 /* SceneDelegate.swift */,
-				CE3664BF26EE153B00D638E8 /* ViewController.swift */,
+				CE36650D2701F09800D638E8 /* Supporting Files */,
+				CE3664FE2701B47300D638E8 /* Models */,
+				CE3664FD2701B46400D638E8 /* Views */,
+				CE3664FC2701B44D00D638E8 /* ViewControllers */,
 				CE3664C426EE153D00D638E8 /* Assets.xcassets */,
 				CE3664C626EE153D00D638E8 /* LaunchScreen.storyboard */,
 				CE3664C926EE153D00D638E8 /* Info.plist */,
-				CE3664D026EE1A4500D638E8 /* ProjectModelComposer.rcproject */,
 			);
 			path = QuarterPetProject;
+			sourceTree = "<group>";
+		};
+		CE3664FC2701B44D00D638E8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE3665012701B61700D638E8 /* WelcomeViewController.swift */,
+				CE3665032701BE8D00D638E8 /* PickOptionViewController.swift */,
+				CE3665092701C8CC00D638E8 /* MLViewController.swift */,
+				CE61DD832701F72200A39A01 /* ARKitViewController.swift */,
+				CE61DD872702097800A39A01 /* ChooseARModelViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CE3664FD2701B46400D638E8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE3664FF2701B5CD00D638E8 /* WelcomeView.swift */,
+				CE3665052701BEDE00D638E8 /* PickOptionView.swift */,
+				CE3665072701C7C200D638E8 /* MLView.swift */,
+				CE36650B2701EF6B00D638E8 /* ARKitView.swift */,
+				CE61DD852702028100A39A01 /* ChooseARModelView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE3664FE2701B47300D638E8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE3664FA26FF856300D638E8 /* Resnet50.mlmodel */,
+				CE3664D026EE1A4500D638E8 /* ProjectModelComposer.rcproject */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CE36650D2701F09800D638E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE3664BB26EE153B00D638E8 /* AppDelegate.swift */,
+				CE3664BD26EE153B00D638E8 /* SceneDelegate.swift */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		EA67F9BB1405C851162671AE /* Pods */ = {
@@ -204,10 +266,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE61DD862702028100A39A01 /* ChooseARModelView.swift in Sources */,
+				CE3665042701BE8D00D638E8 /* PickOptionViewController.swift in Sources */,
+				CE36650A2701C8CC00D638E8 /* MLViewController.swift in Sources */,
+				CE61DD882702097800A39A01 /* ChooseARModelViewController.swift in Sources */,
 				CE3664D126EE1A4500D638E8 /* ProjectModelComposer.rcproject in Sources */,
-				CE3664C026EE153B00D638E8 /* ViewController.swift in Sources */,
+				CE3665022701B61700D638E8 /* WelcomeViewController.swift in Sources */,
+				CE61DD842701F72200A39A01 /* ARKitViewController.swift in Sources */,
+				CE3665062701BEDE00D638E8 /* PickOptionView.swift in Sources */,
+				CE3665082701C7C200D638E8 /* MLView.swift in Sources */,
 				CE3664BC26EE153B00D638E8 /* AppDelegate.swift in Sources */,
+				CE36650C2701EF6B00D638E8 /* ARKitView.swift in Sources */,
+				CE3664FB26FF856300D638E8 /* Resnet50.mlmodel in Sources */,
 				CE3664BE26EE153B00D638E8 /* SceneDelegate.swift in Sources */,
+				CE3665002701B5CD00D638E8 /* WelcomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +420,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				COREML_CODEGEN_LANGUAGE = Swift;
 				DEVELOPMENT_TEAM = LMTK7P8R74;
 				INFOPLIST_FILE = QuarterPetProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -368,6 +441,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				COREML_CODEGEN_LANGUAGE = Swift;
 				DEVELOPMENT_TEAM = LMTK7P8R74;
 				INFOPLIST_FILE = QuarterPetProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
